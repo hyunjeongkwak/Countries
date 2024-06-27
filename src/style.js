@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   text-align: center;
-  max-width: 2000px;
+  max-width: 1700px;
   margin: 0 auto;
 `;
 
@@ -15,7 +15,7 @@ export const H2 = styled.h2`
 export const H1 = styled.h1`
   font-weight: 700;
   font-size: 45px;
-  margin-bottom: 55px;
+  margin-bottom: 60px;
 `;
 
 export const CountryContainer = styled.div`
@@ -23,6 +23,7 @@ export const CountryContainer = styled.div`
   grid-template-columns: repeat(4, 1fr);
   gap: 35px;
   align-items: stretch;
+  margin-bottom: 30px;
 `;
 
 export const CountryCard = styled.div`
