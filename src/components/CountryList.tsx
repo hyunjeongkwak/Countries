@@ -43,7 +43,17 @@ const CountryList = () => {
     (country) => !selectedCountries.some((selected) => selected.cca3 === country.cca3)
   );
 
-  if (loading) return <div>loading...</div>;
+  if (loading)
+    return (
+      <div>
+        <Container>
+          <CountryCard>
+            <H3>Countries</H3>
+            <H2>Loading...</H2>
+          </CountryCard>
+        </Container>
+      </div>
+    );
 
   return (
     <Container>
